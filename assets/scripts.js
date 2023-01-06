@@ -185,15 +185,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	const swiper = new Swiper('.swiper-carousel', {
 		loop: true,
-		slidesPerView: 3,
+		slidesPerView: 1,
         
-            
+       
+
+
 		speed: 1800,
 		centeredSlides: true,
 		navigation: {
 			nextEl: '.swiper-slider__navigation-next',
 			prevEl: '.swiper-slider__navigation-prev'
 		}
+    
 	})
 
 	document.querySelector('video').playbackRate = 2

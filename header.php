@@ -125,57 +125,57 @@
                 <div class="swiper-slide swiper-carousel__item">
                   <div class="swiper-carousel__image-wrapper">
                     <div class="swiper-carousel__image-left">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/1.png">
+					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/1.jpg">
 				    </div>
                     <div class="swiper-carousel__image-right">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/1.png">
+					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/1.jpg">
                     </div>
                   </div>
-                  <p>Invoker</p> 
+                  <p>Portfolio</p> 
                 </div>
                 <div class="swiper-slide swiper-carousel__item">
                   <div class="swiper-carousel__image-wrapper">
                     <div class="swiper-carousel__image-left">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/2.png">
+					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/2.jpg">
                     </div>
                     <div class="swiper-carousel__image-right">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/2.png">
+					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/2.jpg">
                     </div>
                   </div>
-                  <p>Void</p> 
+                  <p>Recent work</p> 
                 </div>
                 <div class="swiper-slide swiper-carousel__item">
                   <div class="swiper-carousel__image-wrapper">
                     <div class="swiper-carousel__image-left">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/3.png">
+					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/1.jpg">
                     </div>
                     <div class="swiper-carousel__image-right">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/3.png">
+					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/1.jpg">
                     </div>
                   </div>
-                  <p>Medusa</p> 
+                  <p>Recent work</p> 
                 </div>
                 <div class="swiper-slide swiper-carousel__item">
                   <div class="swiper-carousel__image-wrapper">
                     <div class="swiper-carousel__image-left">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/4.png">    
+					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/1.jpg">    
 					</div>                
                     <div class="swiper-carousel__image-right">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/4.png">     
+					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/1.jpg">     
 					</div>                
                   </div>
-                  <p>Lancer</p> 
+                  <p>Recent work</p> 
                 </div>
                 <div class="swiper-slide swiper-carousel__item">
                   <div class="swiper-carousel__image-wrapper">
                     <div class="swiper-carousel__image-left">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/5.png">
+					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/5.jpg">
                     </div>
                     <div class="swiper-carousel__image-right">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/5.png"> 
+					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/5.jpg"> 
                     </div>
                   </div>
-                  <p>Lich</p>
+                  <p>Recent work</p>
               </div>
             </div>
             <div class="swiper-slider__navigation">
@@ -196,7 +196,7 @@
       <div class="loading-lazy__container">
         
         <div class="loading-lazy__box">
-          <h2>Recently works :</h2>
+          <h2>Recent works :</h2>
             <h1><br><br>
             
           </h1>
@@ -204,91 +204,91 @@
 
                 <div class="loading-lazy-hide">
                   <div id="container" class="loading-lazy__li one ">
-                    <a href="https://themepixel.github.io/PSDtoHTML.WITH.LESS.CSS.EXOTICO./"><img class="imglazy" data-src="<?php echo get_template_directory_uri(); ?>/img/1.png" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
+                    <a href="https://themepixel.github.io/PSDtoHTML.WITH.LESS.CSS.EXOTICO./"><img class="imglazy" data-src="<?php echo get_template_directory_uri(); ?>/img/1.jpg" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
                   </div >
                 </div>
                 
                 <div class="loading-lazy-hide">
                   <div id="container" class="loading-lazy__li two">
-                    <a href="https://themepixel.github.io/PSDtoHTML.WITH.LESS.CSS.EXOTICO./"><img class="imglazy" data-src="<?php echo get_template_directory_uri(); ?>/img/2.png" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
+                    <a href="https://themepixel.github.io/PSDtoHTML.WITH.LESS.CSS.EXOTICO./"><img class="imglazy" data-src="<?php echo get_template_directory_uri(); ?>/img/2.jpg" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
                   </div >
                 </div>
                 
                 <div class="loading-lazy-hide">
                   <div id="container" class="loading-lazy__li three">
-                    <a href="https://themepixel.github.io/PSDtoHTML.WITH.LESS.CSS.EXOTICO./"><img class="imglazy"  data-src="<?php echo get_template_directory_uri(); ?>/img/1.png" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
+                    <a href="https://themepixel.github.io/PSDtoHTML.WITH.LESS.CSS.EXOTICO./"><img class="imglazy"  data-src="<?php echo get_template_directory_uri(); ?>/img/1.jpg" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
                   </div >
                 </div>
 
                 <div class="loading-lazy-hide">
                   <div id="container" class="loading-lazy__li four ">
-                    <a href="https://themepixel.github.io/Portfolio_HTML/"><img class="imglazy"  data-src="<?php echo get_template_directory_uri(); ?>/img/1.png" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
+                    <a href="https://themepixel.github.io/Portfolio_HTML/"><img class="imglazy"  data-src="<?php echo get_template_directory_uri(); ?>/img/1.jpg" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
                   </div >
                 </div>
 
                 <div class="loading-lazy-hide">
                   <div id="container" class="loading-lazy__li five ">
-                    <a href="https://themepixel.github.io/Portfolio_HTML/"><img class="imglazy"  data-src="<?php echo get_template_directory_uri(); ?>/img/1.png" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
+                    <a href="https://themepixel.github.io/Portfolio_HTML/"><img class="imglazy"  data-src="<?php echo get_template_directory_uri(); ?>/img/1.jpg" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
                   </div >
                 </div>
 
                 <div class="loading-lazy-hide">
                   <div id="container" class="loading-lazy__li six ">
-                    <a href="https://themepixel.github.io/Portfolio_HTML/"><img class="imglazy"  data-src="<?php echo get_template_directory_uri(); ?>/img/1.png" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
+                    <a href="https://themepixel.github.io/Portfolio_HTML/"><img class="imglazy"  data-src="<?php echo get_template_directory_uri(); ?>/img/1.jpg" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
                   </div >
                 </div>
 
                 <div class="loading-lazy-hide">
                   <div id="container" class="loading-lazy__li seven ">
-                    <a href="https://themepixel.github.io/Portfolio_HTML/"><img class="imglazy"  data-src="<?php echo get_template_directory_uri(); ?>/img/1.png" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
+                    <a href="https://themepixel.github.io/Portfolio_HTML/"><img class="imglazy"  data-src="<?php echo get_template_directory_uri(); ?>/img/1.jpg" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
                   </div >
                 </div>
 
                 <div class="loading-lazy-hide">
                   <div id="container" class="loading-lazy__li eight ">
-                    <a href="https://themepixel.github.io/Portfolio_HTML/"><img class="imglazy"  data-src="<?php echo get_template_directory_uri(); ?>/img/1.png" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
+                    <a href="https://themepixel.github.io/Portfolio_HTML/"><img class="imglazy"  data-src="<?php echo get_template_directory_uri(); ?>/img/1.jpg" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
                   </div >
                 </div>
 
                 <div class="loading-lazy-hide">
                   <div id="container" class="loading-lazy__li nine ">
-                    <a href="https://themepixel.github.io/Portfolio_HTML/"><img class="imglazy"  data-src="<?php echo get_template_directory_uri(); ?>/img/1.png" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
+                    <a href="https://themepixel.github.io/Portfolio_HTML/"><img class="imglazy"  data-src="<?php echo get_template_directory_uri(); ?>/img/1.jpg" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
                   </div >
                 </div>
 
                 <div class="loading-lazy-hide">
                   <div id="container" class="loading-lazy__li ten  ">
-                    <a href="https://themepixel.github.io/Portfolio_HTML/"><img class="imglazy"  data-src="<?php echo get_template_directory_uri(); ?>/img/1.png" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
+                    <a href="https://themepixel.github.io/Portfolio_HTML/"><img class="imglazy"  data-src="<?php echo get_template_directory_uri(); ?>/img/1.jpg" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
                   </div >
                 </div>
 
                 <div class="loading-lazy-hide">
                   <div id="container" class="loading-lazy__li eleven  ">
-                    <a href="https://themepixel.github.io/Portfolio_HTML/"><img class="imglazy"  data-src="<?php echo get_template_directory_uri(); ?>/img/1.png" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
+                    <a href="https://themepixel.github.io/Portfolio_HTML/"><img class="imglazy"  data-src="<?php echo get_template_directory_uri(); ?>/img/1.jpg" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
                   </div >
                 </div>
 
                 <div class="loading-lazy-hide">
                   <div id="container" class="loading-lazy__li twelve ">
-                    <a href="https://themepixel.github.io/Portfolio_HTML/"><img class="imglazy"  data-src="<?php echo get_template_directory_uri(); ?>/img/1.png" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
+                    <a href="https://themepixel.github.io/Portfolio_HTML/"><img class="imglazy"  data-src="<?php echo get_template_directory_uri(); ?>/img/1.jpg" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
                   </div >
                 </div>
 
                 <div class="loading-lazy-hide">
                   <div id="container" class="loading-lazy__li thirteen  ">
-                    <a href="https://themepixel.github.io/Portfolio_HTML/"><img class="imglazy"  data-src="<?php echo get_template_directory_uri(); ?>/img/1.png" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
+                    <a href="https://themepixel.github.io/Portfolio_HTML/"><img class="imglazy"  data-src="<?php echo get_template_directory_uri(); ?>/img/1.jpg" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
                   </div >
                 </div>
 
                 <div class="loading-lazy-hide">
                   <div id="container" class="loading-lazy__li fourteen  ">
-                    <a href="https://themepixel.github.io/Portfolio_HTML/"><img class="imglazy"  data-src="<?php echo get_template_directory_uri(); ?>/img/1.png" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
+                    <a href="https://themepixel.github.io/Portfolio_HTML/"><img class="imglazy"  data-src="<?php echo get_template_directory_uri(); ?>/img/1.jpg" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
                   </div >
                 </div>
 
                 <div class="loading-lazy-hide">
                   <div id="container" class="loading-lazy__li fifteen ">
-                    <a href="https://themepixel.github.io/Portfolio_HTML/"><img class="imglazy"  data-src="<?php echo get_template_directory_uri(); ?>/img/1.png" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
+                    <a href="https://themepixel.github.io/Portfolio_HTML/"><img class="imglazy"  data-src="<?php echo get_template_directory_uri(); ?>/img/1.jpg" src="<?php echo get_template_directory_uri(); ?>/img/1x1.png" alt="some-image"></a>
                   </div >
                 </div>
 
