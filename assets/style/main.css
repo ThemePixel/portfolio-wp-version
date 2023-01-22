@@ -35,7 +35,7 @@
 html,
 body {
   overflow-x: hidden;
-  background-color: #393E46;
+  background-color: #F08A5D;
 }
 html {
   box-sizing: border-box;
@@ -294,13 +294,40 @@ body .inverted .header__container {
     background-size: cover;
   }
 }
+.main__container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url(../swiper-slider/img/light.png);
+  background-position: center -70px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: key-light 3s ease-in-out infinite;
+}
+.main__container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url(../swiper-slider/img/glow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: key-glow 1.7s ease-in-out infinite;
+}
 .tab-slider__section {
   position: relative;
-  margin-top: 200px;
 }
 .tab-slider__section .tab-slider-navbar {
   position: relative;
-  margin: 65px 10px 40px 10px;
+  margin: -945px 10px 40px 10px;
+  z-index: 99;
+  opacity: 0.7;
 }
 .tab-slider__section .tab-slider-navbar .tab-slider-navigation {
   position: relative;
@@ -444,7 +471,7 @@ body .inverted .header__container {
 }
 .tab-slider__section .tab-content .tab-content-tab .tab-content-row .tab-content-right-column .tab-content-info .tab-content-city {
   color: black;
-  font: 2em sans-serif;
+  font: 4em sans-serif;
   font-weight: 600;
   margin-bottom: 25px;
 }

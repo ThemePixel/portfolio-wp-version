@@ -119,6 +119,7 @@
 <main class="main__container">
 
     <section class="tab-slider__section">
+    <video src="<?php echo get_template_directory_uri(); ?>/assets/swiper-slider/videos/smoke.mp4" class="swiper-slider__video" autoplay loop muted></video>
       <div class="tab-slider-navbar">
         <div class="tab-slider-navigation">
           <i class="tab-slider-left-btn"></i>
@@ -375,10 +376,10 @@
                 <div class="swiper-slide swiper-carousel__item">
                   <div class="swiper-carousel__image-wrapper">
                     <div class="swiper-carousel__image-left">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/1.jpg">
+					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/11.png">
 				    </div>
                     <div class="swiper-carousel__image-right">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/1.jpg">
+					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/11.png">
                     </div>
                   </div>
                   <p href="https://www.google.com>">Portfolio</p> 
@@ -386,10 +387,10 @@
                 <div class="swiper-slide swiper-carousel__item">
                   <div class="swiper-carousel__image-wrapper">
                     <div class="swiper-carousel__image-left">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/2.jpg">
+					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/22.png">
                     </div>
                     <div class="swiper-carousel__image-right">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/2.jpg">
+					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/22.png">
                     </div>
                   </div>
                   <p>Recent work</p> 
@@ -397,10 +398,10 @@
                 <div class="swiper-slide swiper-carousel__item">
                   <div class="swiper-carousel__image-wrapper">
                     <div class="swiper-carousel__image-left">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/1.jpg">
+					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/33.png">
                     </div>
                     <div class="swiper-carousel__image-right">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/1.jpg">
+					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/33.png">
                     </div>
                   </div>
                   <p>Recent work</p> 
@@ -408,10 +409,10 @@
                 <div class="swiper-slide swiper-carousel__item">
                   <div class="swiper-carousel__image-wrapper">
                     <div class="swiper-carousel__image-left">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/1.jpg">    
+					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/44.png">    
 					</div>                
                     <div class="swiper-carousel__image-right">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/1.jpg">     
+					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/44.png">     
 					</div>                
                   </div>
                   <p>Recent work</p> 
@@ -419,10 +420,10 @@
                 <div class="swiper-slide swiper-carousel__item">
                   <div class="swiper-carousel__image-wrapper">
                     <div class="swiper-carousel__image-left">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/5.jpg">
+					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/55.png">
                     </div>
                     <div class="swiper-carousel__image-right">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/5.jpg"> 
+					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/55.png"> 
                     </div>
                   </div>
                   <p>Recent work</p>
@@ -437,28 +438,6 @@
         </div>
         
         
-
-
-
-
-
-
-       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         <video src="<?php echo get_template_directory_uri(); ?>/assets/swiper-slider/videos/smoke.mp4" class="swiper-slider__video" autoplay loop muted></video>
     </section>
@@ -586,7 +565,7 @@
     </section>
 
 
-    </main> 
+</main> 
 
 
 
