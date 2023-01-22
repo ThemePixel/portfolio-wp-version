@@ -185,13 +185,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	const swiper = new Swiper('.swiper-carousel', {
 		loop: true,
-		slidesPerView: 1,
-        
-        
-       
-
-
-		speed: 1800,
+		slidesPerView: 3,
+        speed: 1800,
 		centeredSlides: true,
 		navigation: {
 			nextEl: '.swiper-slider__navigation-next',

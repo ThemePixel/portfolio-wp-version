@@ -205,8 +205,6 @@
         <h1 class="tab-content-country">3D Slider</h1>
         </div>
       
-
-      
         <div class="tab-content-tab">
           <div class="tab-content-row">
             <div class="tab-content-left-column">
@@ -227,8 +225,144 @@
         <h1 class="tab-content-country">3D Slider</h1>
         </div>
       
+        <div class="tab-content-tab">
+          <div class="tab-content-row">
+            <div class="tab-content-left-column">
+              <div class="tab-content-img-card">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/city2.jpg" alt="">
+              </div>
+            </div>
+            <div class="tab-content-right-column">
+              <div class="tab-content-info">
+                <h2 class="tab-content-city">3D Slider</h2>
+                <div class="tab-content-description">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.amet consectetur adipisicing elit.amet consectetur adipisicing elit. Consectetur voluptas minus optio dolor? Recusandae modi veritatis obcaecati nam accusamus saepe.</p>
+                  <p>Lorem ipsum dolor t consectetur adipisicing elit. Conselor?  accusamus amet consectetur adipisicing elit.ametamet consectetur adipisicing elit. consectetur adipisicing elit.saepe.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <h1 class="tab-content-country">3D Slider</h1>
+        </div>
+      
+        <div class="tab-content-tab">
+          <div class="tab-content-row">
+            <div class="tab-content-left-column">
+              <div class="tab-content-img-card">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/city4.jpg" alt="">
+              </div>
+            </div>
+            <div class="tab-content-right-column">
+              <div class="tab-content-info">
+                <h2 class="tab-content-city">3D Slider</h2>
+                <div class="tab-content-description">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.amet consectetur adipisicing elit.amet consectetur adipisicing elit. Consectetur voluptas minus optio dolor? Recusandae modi veritatis obcaecati nam accusamus saepe.</p>
+                  <p>Lorem ipsum dolor t consectetur adipisicing elit. Conselor?  accusamus amet consectetur adipisicing elit.ametamet consectetur adipisicing elit. consectetur adipisicing elit.saepe.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <h1 class="tab-content-country">3D Slider</h1>
+        </div>
 
 
+        <div class="tab-content-tab">
+          <div class="tab-content-row">
+            <div class="tab-content-left-column">
+              <div class="tab-content-img-card">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/city5.jpg" alt="">
+              </div>
+            </div>
+            <div class="tab-content-right-column">
+              <div class="tab-content-info">
+                <h2 class="tab-content-city">3D Slider</h2>
+                <div class="tab-content-description">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.amet consectetur adipisicing elit.amet consectetur adipisicing elit. Consectetur voluptas minus optio dolor? Recusandae modi veritatis obcaecati nam accusamus saepe.</p>
+                  <p>Lorem ipsum dolor t consectetur adipisicing elit. Conselor?  accusamus amet consectetur adipisicing elit.ametamet consectetur adipisicing elit. consectetur adipisicing elit.saepe.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <h1 class="tab-content-country">3D Slider</h1>
+        </div>
+
+        <div class="tab-content-tab">
+          <div class="tab-content-row">
+            <div class="tab-content-left-column">
+              <div class="tab-content-img-card">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/city3.jpg" alt="">
+              </div>
+            </div>
+            <div class="tab-content-right-column">
+              <div class="tab-content-info">
+                <h2 class="tab-content-city">3D Slider</h2>
+                <div class="tab-content-description">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.amet consectetur adipisicing elit.amet consectetur adipisicing elit. Consectetur voluptas minus optio dolor? Recusandae modi veritatis obcaecati nam accusamus saepe.</p>
+                  <p>Lorem ipsum dolor t consectetur adipisicing elit. Conselor?  accusamus amet consectetur adipisicing elit.ametamet consectetur adipisicing elit. consectetur adipisicing elit.saepe.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <h1 class="tab-content-country">3D Slider</h1>
+        </div>
+
+        <div class="tab-content-tab">
+          <div class="tab-content-row">
+            <div class="tab-content-left-column">
+              <div class="tab-content-img-card">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/city.jpg" alt="">
+              </div>
+            </div>
+            <div class="tab-content-right-column">
+              <div class="tab-content-info">
+                <h2 class="tab-content-city">3D Slider</h2>
+                <div class="tab-content-description">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.amet consectetur adipisicing elit.amet consectetur adipisicing elit. Consectetur voluptas minus optio dolor? Recusandae modi veritatis obcaecati nam accusamus saepe.</p>
+                  <p>Lorem ipsum dolor t consectetur adipisicing elit. Conselor?  accusamus amet consectetur adipisicing elit.ametamet consectetur adipisicing elit. consectetur adipisicing elit.saepe.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <h1 class="tab-content-country">3D Slider</h1>
+        </div>
+        <div class="tab-content-tab">
+          <div class="tab-content-row">
+            <div class="tab-content-left-column">
+              <div class="tab-content-img-card">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/city5.jpg" alt="">
+              </div>
+            </div>
+            <div class="tab-content-right-column">
+              <div class="tab-content-info">
+                <h2 class="tab-content-city">3D Slider</h2>
+                <div class="tab-content-description">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.amet consectetur adipisicing elit.amet consectetur adipisicing elit. Consectetur voluptas minus optio dolor? Recusandae modi veritatis obcaecati nam accusamus saepe.</p>
+                  <p>Lorem ipsum dolor t consectetur adipisicing elit. Conselor?  accusamus amet consectetur adipisicing elit.ametamet consectetur adipisicing elit. consectetur adipisicing elit.saepe.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <h1 class="tab-content-country">3D Slider</h1>
+        </div>
+        <div class="tab-content-tab">
+          <div class="tab-content-row">
+            <div class="tab-content-left-column">
+              <div class="tab-content-img-card">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/city2.jpg" alt="">
+              </div>
+            </div>
+            <div class="tab-content-right-column">
+              <div class="tab-content-info">
+                <h2 class="tab-content-city">3D Slider</h2>
+                <div class="tab-content-description">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.amet consectetur adipisicing elit.amet consectetur adipisicing elit. Consectetur voluptas minus optio dolor? Recusandae modi veritatis obcaecati nam accusamus saepe.</p>
+                  <p>Lorem ipsum dolor t consectetur adipisicing elit. Conselor?  accusamus amet consectetur adipisicing elit.ametamet consectetur adipisicing elit. consectetur adipisicing elit.saepe.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <h1 class="tab-content-country">3D Slider</h1>
+        </div>
     </section>
  
 
