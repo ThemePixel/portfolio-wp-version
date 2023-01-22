@@ -292,3 +292,21 @@ tabMenu.addEventListener("mousedown", () => {
     activeDrag = true;
 });
 
+
+const tabss = document.querySelectorAll(".tab-content-tab");
+const tabBtns = document.querySelectorAll(".tab-slider-btn");
+const tab_Nav = function(tabBtnClick){
+    tabBtns.forEach((tabBtn) => {
+        tabBtn.classList.remove("active");
+    });
+    tabss.forEach((tab) => {
+        tab.classList.remove("active");
+    });
+    tabBtns[tabBtnClick].classList.add("active");
+    tabss[tabBtnClick].classList.add("active");
+}
+tabBtns.forEach((tabBtn, i) => {
+    tabBtn.addEventListener("click", () => {
+        tab_Nav(i);
+    });
+});

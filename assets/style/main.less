@@ -60,7 +60,7 @@ html, body {
 @border:#d6d4e2;
 @pofo:#6f6f6f;
 @first:#2e2e41;
-
+@country:#434354;
 @shadow: 0 5px 25px rgb(2, 2, 2, 0.1);
 
 
@@ -547,23 +547,73 @@ body .inverted .header__container .menu__body .menu__list li .menu__sub-list::be
         }
     }
     .tab-content{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 100%;
         .tab-content-tab{
+            position: absolute;
+            top: 0;
+            right: auto;
+            bottom: 0;
+            left: auto;
+            max-width: 1100px;
+            padding: 15px 50px;
+            transform: translateX(25px);
+            content-visibility: hidden;
+            opacity: 0;
+            &.active{
+                transform: translateX(0);
+                content-visibility: visible;
+                opacity: 1;
+                transition: 1s ease;
+            }
+            .tab-content-country{
+                color: @country;
+                font-size: 5em;
+                font-weight: 700;
+                text-align: center;
+                text-shadow: @shadow;
+            }
+            max-width: 1100px;
+            padding: 15px 50px;
             .tab-content-row{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 50px 0;
+                gap: 30px;
                 .tab-content-left-column{
                     .tab-content-img-card{
+                        position: relative;
+                        width: 450px;
+                        max-width: 450px;
+                        border-radius: 20px;
+                        overflow: hidden;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        box-shadow: @shadow;
                         img{
-
+                            width: 100%;
                         }
                     }
                 }
                 .tab-content-right-column{
+                    max-width: 800px;
                     .tab-content-info{
                         .tab-content-city{
-
+                            color: black;
+                            font: 2em sans-serif;
+                            font-weight: 600;
+                            margin-bottom: 25px;
                         }
                         .tab-content-description{
                             p{
-
+                                color: white;
+                                margin-bottom: 10px;
+                                font: 1em sans-serif;
                             }
                         }
                     }
