@@ -275,3 +275,18 @@ window.onresize = function(){
     let scrollLeftValue = Math.round(tabMenu.scrollLeft);
     btnLeft.style.display = scrollLeftValue > 0 ? "block" : "none";
 }
+
+
+let activeDrag = false;
+tabMenu.addEventListener("mousemove", (drag) => {
+   if(!activeDrag) return;
+   tabMenu.scrollLeft -= drag.movementX;  
+   IconVisibility();
+});
+document.addEventListener("mouseup", () => {   
+    activeDrag = false;
+});
+tabMenu.addEventListener("mousedown", () => {   
+    activeDrag = true;
+});
+
