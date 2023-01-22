@@ -121,27 +121,42 @@
     <section class="tab-slider__section">
       <div class="tab-slider-navbar">
         <div class="tab-slider-navigation">
-        
-            <i class="tab-slider-left-btn"></i>
-          
-          
-            <i class="tab-slider-right-btn"></i>
-         
+          <i class="tab-slider-left-btn"></i>
+          <i class="tab-slider-right-btn"></i>
           <ul class="tab-slider-menu">
             <li class="tab-slider-btn active">3D Slider</li>
             <li class="tab-slider-btn">Portfolio</li>
             <li class="tab-slider-btn">Tabs</li>
             <li class="tab-slider-btn">Portfolio</li>
+            <li class="tab-slider-btn">Tabs</li>
+            <li class="tab-slider-btn">Portfolio</li>
+            <li class="tab-slider-btn">Tabs</li>
             <li class="tab-slider-btn">Portfolio</li>
             <li class="tab-slider-btn">Portfolio</li>
-            <li class="tab-slider-btn">Portfolio</li>
-            <li class="tab-slider-btn">Portfolio</li>
-            <li class="tab-slider-btn">Portfolio</li>
-            <li class="tab-slider-btn">Portfolio</li>
+            <li class="tab-slider-btn">Tabs</li>
             <li class="tab-slider-btn">Portfolio</li>
           </ul>
         </div>
-    
+      </div>
+      <div class="tab-content">
+        <div class="tab-content-tab">
+          <div class="tab-content-row">
+            <div class="tab-content-left-column">
+              <div class="tab-content-img-card">
+                <img src="" alt="">
+              </div>
+            </div>
+            <div class="tab-content-right-column">
+              <div class="tab-content-info">
+                <h2 class="tab-content-city">3D Slider</h2>
+                <div class="tab-content-description">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur voluptas minus optio dolor? Recusandae modi veritatis obcaecati nam accusamus saepe.</p>
+                  <p>Lorem ipsum dolor t consectetur adipisicing elit. Conselor?  accusamus saepe.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
  

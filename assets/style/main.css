@@ -319,7 +319,7 @@ body .inverted .header__container {
   font-family: assassin-st;
   transform: rotate(270deg);
   left: 0;
-  background: linear-gradient(to bottom, transparent, #FCE38A 80%);
+  background: linear-gradient(to top, transparent, #2e2e41 80%);
   border-top-right-radius: 30px;
   border-top-left-radius: 30px;
   position: absolute;
@@ -336,7 +336,7 @@ body .inverted .header__container {
   font-family: assassin-st;
   transform: rotate(90deg);
   right: 0;
-  background: linear-gradient(to bottom, transparent, #FCE38A 80%);
+  background: linear-gradient(to top, transparent, #2e2e41 80%);
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   position: absolute;
@@ -347,7 +347,7 @@ body .inverted .header__container {
 }
 .tab-slider__section .tab-slider-navbar .tab-slider-navigation .tab-slider-menu {
   color: white;
-  background: #393E46;
+  background: #2e2e41;
   max-width: 800px;
   padding: 10px;
   white-space: nowrap;

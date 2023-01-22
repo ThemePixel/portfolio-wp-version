@@ -59,7 +59,7 @@ html, body {
 @15:#112D4E;
 @border:#d6d4e2;
 @pofo:#6f6f6f;
-
+@first:#2e2e41;
 
 @shadow: 0 5px 25px rgb(2, 2, 2, 0.1);
 
@@ -475,7 +475,7 @@ body .inverted .header__container .menu__body .menu__list li .menu__sub-list::be
                         font-family: assassin-st;
                         transform: rotate(270deg);
                         left: 0;
-                        background: linear-gradient(to bottom, transparent, #FCE38A 80%);
+                        background: linear-gradient(to top, transparent, @first 80%);
                         border-top-right-radius: 30px;
                         border-top-left-radius: 30px;
                         position: absolute;
@@ -493,7 +493,7 @@ body .inverted .header__container .menu__body .menu__list li .menu__sub-list::be
                         position: absolute;
                         transform: rotate(90deg);
                         right: 0;
-                        background: linear-gradient(to bottom, transparent, @11 80%);
+                        background: linear-gradient(to top, transparent, @first 80%);
                         border-top-left-radius: 30px;
                         border-top-right-radius: 30px;
                         position: absolute;
@@ -505,7 +505,7 @@ body .inverted .header__container .menu__body .menu__list li .menu__sub-list::be
                 }
                 .tab-slider-menu{
                 color: white;
-                background: @2;
+                background: @first;
                 max-width: 800px;
                 padding: 10px;
                 white-space: nowrap;
@@ -541,6 +541,31 @@ body .inverted .header__container .menu__body .menu__list li .menu__sub-list::be
                     }
                     &.active{
                         background: @14; 
+                    }
+                }
+            }
+        }
+    }
+    .tab-content{
+        .tab-content-tab{
+            .tab-content-row{
+                .tab-content-left-column{
+                    .tab-content-img-card{
+                        img{
+
+                        }
+                    }
+                }
+                .tab-content-right-column{
+                    .tab-content-info{
+                        .tab-content-city{
+
+                        }
+                        .tab-content-description{
+                            p{
+
+                            }
+                        }
                     }
                 }
             }
