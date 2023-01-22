@@ -30,10 +30,14 @@
 		<a href="index.html" class="header__logo">
 		 <span class="logo__text">Pixel</span>
 		</a>
+
 		<div class="header__menu menu ">
 			<div class="menu__icon">
 				<span></span>
 			</div>  
+
+
+
 			<nav class="menu__body">
 				<ul class="menu__list">
 					<li><a data-goto=".page__section1" href="index.html"  class="menu__link">HOME</a></li>
@@ -112,9 +116,35 @@
 		</div>
 </header>
 
-
-
 <main class="main__container">
+
+    <section class="tab-slider__section">
+      <div class="tab-slider-navbar">
+        <div class="tab-slider-navigation">
+        
+            <i class="tab-slider-left-btn"></i>
+          
+          
+            <i class="tab-slider-right-btn"></i>
+         
+          <ul class="tab-slider-menu">
+            <li class="tab-slider-btn active">3D Slider</li>
+            <li class="tab-slider-btn">Portfolio</li>
+            <li class="tab-slider-btn">Tabs</li>
+            <li class="tab-slider-btn">Portfolio</li>
+            <li class="tab-slider-btn">Portfolio</li>
+            <li class="tab-slider-btn">Portfolio</li>
+            <li class="tab-slider-btn">Portfolio</li>
+            <li class="tab-slider-btn">Portfolio</li>
+            <li class="tab-slider-btn">Portfolio</li>
+            <li class="tab-slider-btn">Portfolio</li>
+            <li class="tab-slider-btn">Portfolio</li>
+          </ul>
+        </div>
+    
+      </div>
+    </section>
+ 
 
     <section class="swiper-slider">
         <h2 class="swiper-slider__header"><span></span></h2>
@@ -131,7 +161,7 @@
 					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/1.jpg">
                     </div>
                   </div>
-                  <p>Portfolio</p> 
+                  <p href="https://www.google.com>">Portfolio</p> 
                 </div>
                 <div class="swiper-slide swiper-carousel__item">
                   <div class="swiper-carousel__image-wrapper">
@@ -188,19 +218,37 @@
         
         
 
+
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <video src="<?php echo get_template_directory_uri(); ?>/assets/swiper-slider/videos/smoke.mp4" class="swiper-slider__video" autoplay loop muted></video>
     </section>
 
     <section class="loading-lazy__section">
-
+      <h2>Recent works :</h2>
       <div class="loading-lazy__container">
-        
         <div class="loading-lazy__box">
-          <h2>Recent works :</h2>
-            <h1><br><br>
-            
-          </h1>
-          <div class="loading-lazy__ul">
+          <div class="loading-lazy__box-flex">
+              <div class="loading-lazy__ul">
 
                 <div class="loading-lazy-hide">
                   <div id="container" class="loading-lazy__li one ">
@@ -292,13 +340,13 @@
                   </div >
                 </div>
 
-          </div >
-          <div id="load__more-button">Load more</div>
+               </div >
+              </div >
+           </div>
         </div>
       </div>
-      
-      <script>
-
+      <div id="load__more-button">Load more</div>  
+    <script>
         let loadMoreBtn = document.querySelector('#load__more-button');
         let currentItem = 3;
         
@@ -317,7 +365,9 @@
         </script>
     </section>
 
-</main> 
+
+    </main> 
+
 
 
 
