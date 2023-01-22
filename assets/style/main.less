@@ -467,13 +467,10 @@ body .inverted .header__container .menu__body .menu__list li .menu__sub-list::be
             align-items: center;
             max-width: fit-content;
             margin: 0 auto;
-
-                .tab-slider-left-btn{
+            .tab-slider-left-btn{
                     margin-top: -63px;
                     display: none;
-                    
-                     &::before{
-                        
+                    &::before{
                         content: '?';
                         font-family: assassin-st;
                         transform: rotate(270deg);
@@ -487,13 +484,9 @@ body .inverted .header__container .menu__body .menu__list li .menu__sub-list::be
                         cursor: pointer;
                         color: white;
                         }
-                    
-                }
-            
-       
-                .tab-slider-right-btn{
+                    }
+                    .tab-slider-right-btn{
                     margin-top: -63px;
-                    //display: none;
                     &::before{
                         content: '?';
                         font-family: assassin-st;
@@ -510,9 +503,7 @@ body .inverted .header__container .menu__body .menu__list li .menu__sub-list::be
                         color: white;
                     }
                 }
-            
-            
-            .tab-slider-menu{
+                .tab-slider-menu{
                 color: white;
                 background: @2;
                 max-width: 800px;
@@ -523,7 +514,14 @@ body .inverted .header__container .menu__body .menu__list li .menu__sub-list::be
                 box-shadow: @shadow;
                 overflow-x: auto;
                 user-select: none;
-                scroll-behavior: unset;
+                scroll-behavior: smooth;
+                &.dragging{
+                    scroll-behavior: unset; 
+                    cursor: grab;
+                    .tab-slider-btn{
+                        pointer-events: none;
+                    } 
+                }
                 &::-webkit-scrollbar{
                     display: none;
                 }
