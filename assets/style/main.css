@@ -175,7 +175,7 @@ body .inverted .header__container {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 10;
+  z-index: 9999999;
 }
 .header .header__container {
   transition: height 0.5s ease;
@@ -193,7 +193,7 @@ body .inverted .header__container {
 .header .header__container .header__logo .logo__text {
   font-size: 36px;
   position: relative;
-  z-index: 8;
+  z-index: 99999999;
   color: white;
   letter-spacing: 3px;
   font-style: normal;
@@ -204,7 +204,7 @@ body .inverted .header__container {
   margin: 0px 0px 0px 60px;
 }
 .header .header__container .menu__body .menu__list .mega-menu_section .menu__sub-list {
-  z-index: 1;
+  z-index: 99999999!important;
 }
 .header .header__container .menu__body .menu__list .mega-menu_section .menu__sub-list .sub-list__li-tag {
   flex-direction: column;
@@ -307,7 +307,17 @@ body .inverted .header__container {
   background-size: cover;
   animation: key-light 3s ease-in-out infinite;
 }
-.main__container::before {
+.tab-slider__section {
+  position: relative;
+}
+.tab-slider__section .tab-slider-navbar {
+  position: relative;
+  margin: -901px 62px 75px -24px;
+  z-index: 66;
+  opacity: 0.7;
+  max-width: 928px;
+}
+.tab-slider__section .tab-slider-navbar::before {
   content: '';
   position: absolute;
   top: 0;
@@ -319,15 +329,6 @@ body .inverted .header__container {
   background-repeat: no-repeat;
   background-size: cover;
   animation: key-glow 1.7s ease-in-out infinite;
-}
-.tab-slider__section {
-  position: relative;
-}
-.tab-slider__section .tab-slider-navbar {
-  position: relative;
-  margin: -945px 10px 40px 10px;
-  z-index: 99;
-  opacity: 0.7;
 }
 .tab-slider__section .tab-slider-navbar .tab-slider-navigation {
   position: relative;
@@ -375,7 +376,7 @@ body .inverted .header__container {
 .tab-slider__section .tab-slider-navbar .tab-slider-navigation .tab-slider-menu {
   color: white;
   background: #2e2e41;
-  max-width: 800px;
+  max-width: 840px;
   padding: 10px;
   white-space: nowrap;
   border-bottom: 1px solid #FF7BE5;
@@ -415,9 +416,16 @@ body .inverted .header__container {
 }
 .tab-slider__section .tab-content {
   position: relative;
+  margin-top: -64px;
+  margin-left: -433px;
   display: flex;
   justify-content: center;
-  width: 100%;
+  max-width: 900px;
+  margin-left: -28px;
+  border-right: 4px solid #FF7BE5;
+  z-index: 55;
+  width: 900;
+  height: 500px;
 }
 .tab-slider__section .tab-content .tab-content-tab {
   position: absolute;
@@ -470,7 +478,7 @@ body .inverted .header__container {
   max-width: 800px;
 }
 .tab-slider__section .tab-content .tab-content-tab .tab-content-row .tab-content-right-column .tab-content-info .tab-content-city {
-  color: black;
+  color: #F9ADEA;
   font: 4em sans-serif;
   font-weight: 600;
   margin-bottom: 25px;
@@ -481,7 +489,6 @@ body .inverted .header__container {
   font: 1em sans-serif;
 }
 .swiper-slider {
-  margin-top: 650px;
   background-color: black;
   color: white;
   position: relative;
@@ -735,6 +742,7 @@ body .inverted .header__container {
   }
 }
 .loading-lazy__section {
+  margin-top: 190px;
   position: relative;
   display: flex;
   align-items: center;

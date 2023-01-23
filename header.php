@@ -118,8 +118,8 @@
 
 <main class="main__container">
 
-    <section class="tab-slider__section">
-    <video src="<?php echo get_template_directory_uri(); ?>/assets/swiper-slider/videos/smoke.mp4" class="swiper-slider__video" autoplay loop muted></video>
+  <section class="tab-slider__section">
+      <video src="<?php echo get_template_directory_uri(); ?>/assets/swiper-slider/videos/smoke.mp4" class="swiper-slider__video" autoplay loop muted></video>
       <div class="tab-slider-navbar">
         <div class="tab-slider-navigation">
           <i class="tab-slider-left-btn"></i>
@@ -139,9 +139,7 @@
           </ul>
         </div>
       </div>
-
       <div class="tab-content">
-
         <div class="tab-content-tab active">
           <div class="tab-content-row">
             <div class="tab-content-left-column">
@@ -154,7 +152,7 @@
                 <h2 class="tab-content-city">3D Slider</h2>
                 <div class="tab-content-description">
                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.amet consectetur adipisicing elit.amet consectetur adipisicing elit. Consectetur voluptas minus optio dolor? Recusandae modi veritatis obcaecati nam accusamus saepe.</p>
-                  <p>Lorem ipsum dolor t consectetur adipisicing elit. Conselor?  accusamus amet consectetur adipisicing elit.ametamet consectetur adipisicing elit. consectetur adipisicing elit.saepe.</p>
+                  <p>Lorem ipsum dolor t consectetur adt. Conselor? amet consectetur adipisicing elit.ametamet consectetur adipisicing elit. consectetur adipisicing elit.saepe.</p>
                 </div>
               </div>
             </div>
@@ -364,10 +362,9 @@
           </div>
         <h1 class="tab-content-country">3D Slider</h1>
         </div>
-    </section>
- 
-
-    <section class="swiper-slider">
+        
+      
+        <div class="swiper-slider">
         <h2 class="swiper-slider__header"><span></span></h2>
         <div class="swiper-slider__wrapper">
           <div class="swiper-slider__container">
@@ -376,73 +373,85 @@
                 <div class="swiper-slide swiper-carousel__item">
                   <div class="swiper-carousel__image-wrapper">
                     <div class="swiper-carousel__image-left">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/11.png">
-				    </div>
+                      <div class="swiper-carousel__image" style="background-image: url(../../swiper-slider/img/1.png);"></div>
+                    </div>
                     <div class="swiper-carousel__image-right">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/11.png">
+                      <div class="swiper-carousel__image" style="background-image: url(../../swiper-slider/img/1.png);"></div>
                     </div>
                   </div>
-                  <p href="https://www.google.com>">Portfolio</p> 
+                  <p>Invoker</p> 
                 </div>
                 <div class="swiper-slide swiper-carousel__item">
                   <div class="swiper-carousel__image-wrapper">
                     <div class="swiper-carousel__image-left">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/22.png">
+                      <div class="swiper-carousel__image" style="background-image: url(../../swiper-slider/img/2.png);"></div>
                     </div>
                     <div class="swiper-carousel__image-right">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/22.png">
+                      <div class="swiper-carousel__image" style="background-image: url(../../swiper-slider/img/2.png);"></div>
                     </div>
                   </div>
-                  <p>Recent work</p> 
+                  <p>Void</p> 
                 </div>
                 <div class="swiper-slide swiper-carousel__item">
                   <div class="swiper-carousel__image-wrapper">
                     <div class="swiper-carousel__image-left">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/33.png">
+                      <div class="swiper-carousel__image" style="background-image: url(../../swiper-slider/img/3.png);"></div>
                     </div>
                     <div class="swiper-carousel__image-right">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/33.png">
+                      <div class="swiper-carousel__image" style="background-image: url(../../swiper-slider/img/3.png);"></div>
                     </div>
                   </div>
-                  <p>Recent work</p> 
+                  <p>Medusa</p> 
                 </div>
                 <div class="swiper-slide swiper-carousel__item">
                   <div class="swiper-carousel__image-wrapper">
                     <div class="swiper-carousel__image-left">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/44.png">    
-					</div>                
+                      <div class="swiper-carousel__image" style="background-image: url(../../swiper-slider/img/4.png);"></div>
+                    </div>
                     <div class="swiper-carousel__image-right">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/44.png">     
-					</div>                
+                      <div class="swiper-carousel__image" style="background-image: url(../../swiper-slider/img/4.png);"></div>
+                    </div>
                   </div>
-                  <p>Recent work</p> 
+                  <p>Lancer</p> 
                 </div>
                 <div class="swiper-slide swiper-carousel__item">
                   <div class="swiper-carousel__image-wrapper">
                     <div class="swiper-carousel__image-left">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/55.png">
+                      <div class="swiper-carousel__image" style="background-image: url(../../swiper-slider/img/5.png);"></div>
                     </div>
                     <div class="swiper-carousel__image-right">
-					    <img class="swiper-carousel__image" src="<?php echo get_template_directory_uri(); ?>/img/55.png"> 
+                      <div class="swiper-carousel__image" style="background-image: url(../../swiper-slider/img/5.png);"></div> 
                     </div>
                   </div>
-                  <p>Recent work</p>
+                  <p>Lich</p>
               </div>
             </div>
             <div class="swiper-slider__navigation">
               <div class="swiper-slider__navigation-next"></div>
               <div class="swiper-slider__navigation-prev"></div>
             </div>
-          
           </div>
         </div>
-        
-        
+      </div>
+      
+      
+      
+      
+      </section>
+  
 
-        <video src="<?php echo get_template_directory_uri(); ?>/assets/swiper-slider/videos/smoke.mp4" class="swiper-slider__video" autoplay loop muted></video>
-    </section>
 
-    <section class="loading-lazy__section">
+  
+  
+ 
+
+
+
+    
+    
+    
+
+  <section class="loading-lazy__section">
       <h2>Recent works :</h2>
       <div class="loading-lazy__container">
         <div class="loading-lazy__box">
@@ -545,7 +554,12 @@
         </div>
       </div>
       <div id="load__more-button">Load more</div>  
-    <script>
+    
+    
+    
+
+    
+  <script>
         let loadMoreBtn = document.querySelector('#load__more-button');
         let currentItem = 3;
         
@@ -562,7 +576,9 @@
         }
         
         </script>
-    </section>
+    
+  
+  </section>
 
 
 </main> 

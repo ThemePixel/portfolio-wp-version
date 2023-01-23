@@ -274,7 +274,7 @@ body .inverted .header__container .menu__body .menu__list li .menu__sub-list::be
         top: 0;
         left: 0;
         width: 100%;
-        z-index: 10;
+        z-index: 9999999;
     
         .header__container{
             transition: height .5s ease;
@@ -291,7 +291,7 @@ body .inverted .header__container .menu__body .menu__list li .menu__sub-list::be
                 .logo__text{
                     font-size: 36px;
                     position: relative;
-                    z-index: 8;
+                    z-index: 99999999;
                     color: white;
                     letter-spacing: 3px;
                     
@@ -312,7 +312,7 @@ body .inverted .header__container .menu__body .menu__list li .menu__sub-list::be
                     }
                     .mega-menu_section{
                         .menu__sub-list{
-                            z-index: 1;
+                            z-index: 99999999!important;
                             .sub-list__li-tag{
                                 
                                 flex-direction: column;
@@ -468,19 +468,7 @@ body .inverted .header__container .menu__body .menu__list li .menu__sub-list::be
         background-size: cover;
         animation: key-light 3s ease-in-out infinite;
     }
-    &::before{
-        content: '';
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        background-image: url(../swiper-slider/img/glow.png);
-        background-position: center; 
-        background-repeat: no-repeat; 
-        background-size: cover;
-        animation: key-glow 1.7s ease-in-out infinite;
-    }
+
 }
 
 
@@ -488,13 +476,29 @@ body .inverted .header__container .menu__body .menu__list li .menu__sub-list::be
 
 
 .tab-slider__section{
+    
     position: relative;
-
+    
     .tab-slider-navbar{
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background-image: url(../swiper-slider/img/glow.png);
+            background-position: center; 
+            background-repeat: no-repeat; 
+            background-size: cover;
+            animation: key-glow 1.7s ease-in-out infinite;
+        }
         position: relative;
-        margin: -945px 10px 40px 10px;
-        z-index: 99;
+        
+        margin: -901px 62px 75px -24px;
+        z-index: 66;
         opacity: 0.7;
+        max-width: 928px;
         .tab-slider-navigation{
             position: relative;
             display: flex;
@@ -541,7 +545,7 @@ body .inverted .header__container .menu__body .menu__list li .menu__sub-list::be
                 .tab-slider-menu{
                 color: white;
                 background: @first;
-                max-width: 800px;
+                max-width: 840px;
                 padding: 10px;
                 white-space: nowrap;
                 border-bottom: 1px solid @12;
@@ -583,9 +587,18 @@ body .inverted .header__container .menu__body .menu__list li .menu__sub-list::be
     }
     .tab-content{
         position: relative;
+        margin-top: -64px;
+        margin-left: -433px;
         display: flex;
         justify-content: center;
-        width: 100%;
+        max-width: 900px;
+        margin-left: -28px;
+        border-right: 4px solid @12;
+        z-index: 55;
+        width: 900;
+        height: 500px;
+        
+       
         .tab-content-tab{
             position: absolute;
             top: 0;
@@ -639,7 +652,7 @@ body .inverted .header__container .menu__body .menu__list li .menu__sub-list::be
                     max-width: 800px;
                     .tab-content-info{
                         .tab-content-city{
-                            color: black;
+                            color: @14;
                             font: 4em sans-serif;
                             font-weight: 600;
                             margin-bottom: 25px;
@@ -674,7 +687,7 @@ body .inverted .header__container .menu__body .menu__list li .menu__sub-list::be
  
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 .swiper-slider{
-    margin-top: 650px;
+    
     background-color: black;
     color: white;
     position: relative;
@@ -970,6 +983,7 @@ body .inverted .header__container .menu__body .menu__list li .menu__sub-list::be
 
 
 .loading-lazy__section{
+    margin-top: 190px;
     position: relative;
     display: flex;
     align-items: center;
