@@ -361,10 +361,10 @@
             </div>
           </div>
         <h1 class="tab-content-country">3D Slider</h1>
+        </div> 
         </div>
-        
       
-        <div class="swiper-slider">
+      <div class="swiper-slider">
         <h2 class="swiper-slider__header"><span></span></h2>
         <div class="swiper-slider__wrapper">
           <div class="swiper-slider__container">
@@ -373,10 +373,13 @@
                 <div class="swiper-slide swiper-carousel__item">
                   <div class="swiper-carousel__image-wrapper">
                     <div class="swiper-carousel__image-left">
-                      <div class="swiper-carousel__image" style="background-image: url(../../swiper-slider/img/1.png);"></div>
+                      
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/11.png"  class="swiper-carousel__image" alt="">
+                    
                     </div>
                     <div class="swiper-carousel__image-right">
-                      <div class="swiper-carousel__image" style="background-image: url(../../swiper-slider/img/1.png);"></div>
+                      
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/11.png"  class="swiper-carousel__image" alt="">
                     </div>
                   </div>
                   <p>Invoker</p> 
@@ -426,15 +429,11 @@
                   <p>Lich</p>
               </div>
             </div>
-            <div class="swiper-slider__navigation">
-              <div class="swiper-slider__navigation-next"></div>
-              <div class="swiper-slider__navigation-prev"></div>
-            </div>
           </div>
         </div>
       </div>
       
-      
+
       
       
       </section>
@@ -442,7 +441,10 @@
 
 
   
-  
+      <div class="swiper-slider__navigation">
+              <div class="swiper-slider__navigation-next"></div>
+              <div class="swiper-slider__navigation-prev"></div>
+      </div>
  
 
 

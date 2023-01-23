@@ -185,7 +185,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	const swiper = new Swiper('.swiper-carousel', {
 		loop: true,
-		slidesPerView: 3,
+		slidesPerView: 1,
         speed: 1800,
 		centeredSlides: true,
 		navigation: {

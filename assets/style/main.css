@@ -489,9 +489,13 @@ body .inverted .header__container {
   font: 1em sans-serif;
 }
 .swiper-slider {
-  background-color: black;
+  width: 500px;
+  height: 800px;
+  margin: 183px 233px 10px 10px;
+  right: 0;
+  top: 0;
   color: white;
-  position: relative;
+  position: absolute;
   overflow: hidden;
 }
 .swiper-slider::before {
@@ -500,7 +504,6 @@ body .inverted .header__container {
   height: 100%;
   position: absolute;
   z-index: 1;
-  box-shadow: inset 0 0 500px black;
 }
 .swiper-slider::after {
   content: '';
@@ -509,7 +512,6 @@ body .inverted .header__container {
   bottom: 0;
   right: 0;
   left: 0;
-  background-image: url(../swiper-slider/img/light.png);
   background-position: center -70px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -542,14 +544,10 @@ body .inverted .header__container {
   bottom: 0;
   right: 0;
   left: 0;
-  background-image: url(../swiper-slider/img/glow.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   animation: key-glow 1.7s ease-in-out infinite;
-}
-.swiper-slider .swiper-slider__wrapper .swiper-slider__container {
-  margin-top: 80px;
 }
 .swiper-slider .swiper-slider__wrapper .swiper-slider__container .swiper-carousel .swiper-wrapper {
   transition: var(--transition);
@@ -617,8 +615,7 @@ body .inverted .header__container {
   text-shadow: #3a4e5e 0 0 10px;
   z-index: 3;
 }
-.swiper-slider .swiper-slider__wrapper .swiper-slider__container .swiper-slider__navigation {
-  overflow: hidden;
+.swiper-slider__navigation {
   position: absolute;
   z-index: 2;
   top: 0;
@@ -626,57 +623,51 @@ body .inverted .header__container {
   left: 0;
   right: 0;
 }
-.swiper-slider .swiper-slider__wrapper .swiper-slider__container .swiper-slider__navigation .swiper-slider__navigation-next {
+.swiper-slider__navigation .swiper-slider__navigation-next {
   position: absolute;
-  height: 100%;
-  width: 50%;
+  height: 50px;
+  width: 50px;
   outline: none;
   right: 0;
   cursor: pointer;
+  color: white;
+  margin: 316px 847px 10px 10px;
 }
-.swiper-slider .swiper-slider__wrapper .swiper-slider__container .swiper-slider__navigation .swiper-slider__navigation-next::before {
+.swiper-slider__navigation .swiper-slider__navigation-next::before {
   content: '?';
   font-family: assassin-st;
-  opacity: 0;
   transition: opacity 0.75s ease-out;
   position: absolute;
   transform: rotate(90deg);
-  right: 50px;
-  top: 30%;
+  right: 10px;
+  top: 5%;
   font-size: 45px;
 }
-.swiper-slider .swiper-slider__wrapper .swiper-slider__container .swiper-slider__navigation .swiper-slider__navigation-next:hover::before {
+.swiper-slider__navigation .swiper-slider__navigation-next:hover::before {
   opacity: 0.3;
 }
-.swiper-slider .swiper-slider__wrapper .swiper-slider__container .swiper-slider__navigation .swiper-slider__navigation-prev {
+.swiper-slider__navigation .swiper-slider__navigation-prev {
   position: absolute;
-  height: 100%;
-  width: 50%;
+  height: 50px;
+  width: 50px;
   outline: none;
+  right: 0;
   cursor: pointer;
+  color: white;
+  margin: 369px 847px 10px 10px;
 }
-.swiper-slider .swiper-slider__wrapper .swiper-slider__container .swiper-slider__navigation .swiper-slider__navigation-prev::before {
+.swiper-slider__navigation .swiper-slider__navigation-prev::before {
   content: '?';
   font-family: assassin-st;
-  opacity: 0;
   transition: opacity 0.75s ease-out;
   position: absolute;
-  transform: rotate(-90deg);
-  left: 50px;
-  top: 30%;
+  transform: rotate(270deg);
+  right: 10px;
+  top: 5%;
   font-size: 45px;
 }
-.swiper-slider .swiper-slider__wrapper .swiper-slider__container .swiper-slider__navigation .swiper-slider__navigation-prev:hover::before {
+.swiper-slider__navigation .swiper-slider__navigation-prev:hover::before {
   opacity: 0.3;
-}
-.swiper-slider video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.5;
 }
 @media only screen and (max-width: 1900px) {
   .swiper-slider .swiper-slider__wrapper .swiper-slider__container .swiper-slider__navigation .swiper-slider__navigation-next::before {
